@@ -11,6 +11,7 @@ const ProjectsPage = ({
   console.log(projects);
   return (
     <>
+      <Seo title="Projects" />
       <main>
         <section className="projects-page">
           <Projects title="all projects" projects={projects} />
